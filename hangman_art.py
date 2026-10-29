@@ -1,5 +1,5 @@
 import random
-danhsach=["apple","banana","peanut","coconut","pinapple"]
+from wordslist import danhsach
 hangman_art={0:("   ",
                "   ",
                "   "),
@@ -15,10 +15,10 @@ hangman_art={0:("   ",
             4:(" O ",
                "/|\\ ",
                "   "),
-            2:(" O ",
+            5:(" O ",
                "/|\\",
                "/  "),
-            3:(" O ",
+            6:(" O ",
                "/|\\",
                "/ \\ ")}
 def display_man(wrong_guesses):
